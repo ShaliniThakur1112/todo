@@ -1,0 +1,134 @@
+body {
+    
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    font-family: 'Salsa', cursive;
+    background-repeat: no-repeat;
+    height: 80vh;
+    background-color: black;
+}
+.head h1{
+    color: rgb(220, 220, 7);
+    font-family:'Times New Roman', Times, serif;
+    margin-left: 20vw;
+    font-size: 6vw;
+}
+.head img{
+    width: 6vw;
+   
+}
+
+.container {
+    max-width: 600px;
+    margin-top: 20vh;
+    margin-left: 32vw;
+    padding: 20px;
+    background: transparent;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid green;
+    border-radius: 2vw;
+
+
+}
+
+#add-task {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid green;
+    padding: 8px;
+}
+
+.completed {
+    text-decoration: line-through;
+    
+}
+.container h1{
+    color: rgb(22, 180, 22);
+}
+#add-task{
+       display: inline-flex;
+}
+#task-input{
+    width: 30vw;
+    height: 6vh;
+    font-size: 18px;
+    border-radius: 1.5vh;
+    border: 0.5px solid rgb(109, 83, 16);
+    background-color: rgb(28, 28, 28);
+    color:bisque ;
+    
+}
+#add-task button{
+    background-image: url(ad.webp);
+    width: 5vw;
+    height: 8vh;
+    background-color: transparent;
+    border:0;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 0;
+    margin-left: 1vw;
+    
+    
+}
+#pending-tasks{
+    color: rgb(146, 103, 17);
+}
+#pending-list{
+    color: rgb(37, 89, 127);
+}
+#completed-tasks{
+    color: rgb(146, 103, 17);
+}
+#completed-list{
+    color: rgb(83, 9, 9);
+}
+#dlt{
+    background-image: url(delete.webp);
+    width: 4vw;
+    height: 7vh;
+    background-color: transparent;
+    border:0;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 0;
+    margin: 0;
+}
+#edit{
+    background-image: url(edt.webp);
+    width: 4vw;
+    height: 7vh;
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 0;
+    margin: 0;
+}
+#complete{
+    background-image: url(comp.webp);
+    width: 4vw;
+    height: 7vh;
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 0;
+    margin: 0;
+}
